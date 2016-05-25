@@ -1,0 +1,21 @@
+How To Serialize Multiple AND Different Types of Objects in Java
+
+Data to Save:
+1. My name (string)
+2. My age (int)
+3. My hobbies (array of hobbies)
+		Name of hobby (string)
+		Location of hobby (string)
+4. My friends (array of friends)
+		Name of friend (string)
+		Age of friend (int)
+		Hobbies of friend (array of hobbies)
+			Name of hobby (string)
+			Location of hobby (string)
+			
+Classes Needed
+1. Friend
+2. Hobby
+3. Main (creates the data, methods)
+4. SaveData (calling main to write to file)
+5. LoadData (calling main to read from file).
